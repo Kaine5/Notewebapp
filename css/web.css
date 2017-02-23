@@ -26,6 +26,7 @@ html,body{
     height: 100%;
 }
 /*--------------------------------------------------For the page only-----------------------------------------------------*/
+/*----------Task field---------*/
 #content {
     padding-left: 17%;
 }
@@ -47,7 +48,6 @@ html,body{
     overflow-y: scroll;
 }
 #sendmess{
-    height: 15vw;
     padding-top: 1em;
     border-top: 1px solid black;
 }
