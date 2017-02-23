@@ -1,3 +1,4 @@
+/*----------------------------------------General theme----------------------------------------------------------------*/
 html,body{
     overflow-x: hidden;
     background-color: transparent;
@@ -9,6 +10,7 @@ html,body{
     color: white;
     position:fixed;
     z-index: 999;
+    text-align: center;
 }
 #sidebar {
     margin-top: 5em;
@@ -23,11 +25,9 @@ html,body{
     background-color: white;
     height: 100%;
 }
+/*--------------------------------------------------For the page only-----------------------------------------------------*/
 #content {
     padding-left: 17%;
-}
-#banner {
-    text-align: center;
 }
 .list-group li{
     border-top: 1px solid white;
