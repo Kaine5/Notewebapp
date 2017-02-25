@@ -8,6 +8,7 @@
 
 #tasklist {
     height: 55.5em;
+    display:inline-block;
 }
 #task-content{
     height: 52em;
@@ -16,6 +17,9 @@
     background-color:white;
 }
 /*-----------Recent Messages------------*/
+#mess {
+    display:inline-block;
+}
 #recentmess{
     height: 33em;
 }
