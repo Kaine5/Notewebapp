@@ -17,6 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <link href="css/web.css" rel="stylesheet" type="text/css"/>
+    <link href="css/Home.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <div id="main">
@@ -33,6 +34,7 @@
                 <li class="list-group-item"><a href="Task.html">Tasks</a></li>
                 <li class="list-group-item"><a href="Message.html">Messages</a></li>
                 <li class="list-group-item"><a href="Calendar.html">Calendar</a></li>
+                <li class="list-group-item"><a href="#">Managing</a></li>
                 <li class="list-group-item"><a href="index.html">Log out</a></li>
             </ul>
         </div>
@@ -40,62 +42,64 @@
             <div class="row">
                 <div id="content">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="tasklist">
-                        <h3>Task List</h3>
-                        <div id="task-content">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Refill the shelves</h5>
-                                        <small>15:00 - 23th Feb 2017</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-primary btn-sm" name="done-button">Done</button>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small>3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small>3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small>3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
-                                </a>
-                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                                    <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">List group item heading</h5>
-                                        <small class="text-muted">3 days ago</small>
-                                    </div>
-                                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                                    <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
-                                </a>
+                        <div class="task-card">
+                            <h3>Task List</h3>
+                            <div id="task-content">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">Refill the shelves</h5>
+                                            <small>15:00 - 23th Feb 2017</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-primary btn-sm" name="done-button">Done</button>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">List group item heading</h5>
+                                            <small>3 days ago</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">List group item heading</h5>
+                                            <small>3 days ago</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">List group item heading</h5>
+                                            <small>3 days ago</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">List group item heading</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                        <div class="d-flex w-100 justify-content-between">
+                                            <h5 class="mb-1">List group item heading</h5>
+                                            <small class="text-muted">3 days ago</small>
+                                        </div>
+                                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                                        <button type="button" class="btn btn-default btn-sm" name="done-button">Done</button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="mess">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="recentmess">
+                        <div class="task-card" id="recentmess">
                             <h3>Recent message:</h3>
                             <ul class="mail-list">
                                 <li>
@@ -135,7 +139,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="sendmess">
+                        <div class="task-card" id="sendmess">
                             <h3>Send message:</h3>
                             <div class="form-group">
                                 <label for="usr">To:</label>
