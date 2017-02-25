@@ -7,10 +7,10 @@
 /*-----------Task List------------*/
 
 #tasklist {
-    height: 50em;
+    height: 55.5em;
 }
 #task-content{
-    height: 48em;
+    height: 52em;
     overflow-y: scroll !important;
     display: block;
     background-color:white;
