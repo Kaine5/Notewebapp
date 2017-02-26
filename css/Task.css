@@ -11,3 +11,6 @@
     display: block;
     background-color:white;
 }
+.list-group a p.mb-0 {
+    font-weight: 200;
+}
