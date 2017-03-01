@@ -41,3 +41,66 @@ span.badge.badge-default{
     height:1.25rem;
     width:1.5rem;
 }
+#new-mess-button {
+    width: 100%;
+}
+#new-mess-dropdown form{
+    width: 100%
+}
+#new-mess-dropdown form label {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+#recent-contact {
+    height: 48em;
+    border-right: groove 1px grey;
+}
+#recent-contact-list {
+    height: 43em;
+    overflow-y:scroll;
+}
+#recent-contact .list-group *.list-group-item {
+}
+#mess-person {
+    border-bottom: groove 1px grey;
+}
+#chat-area {
+    height:48em;
+}
+#chat-content {
+    padding-top: 1rem;
+    height: 43em;
+    overflow-y: auto;
+}
+
+.chat-receiver p{
+    display: block;
+    padding: 2px 1rem;
+    margin:2px;
+    float: left;
+    background: lightgrey;
+    border-radius: 7px;
+}
+.chat-sender p{
+    display: block;
+    padding: 2px 1rem;
+    margin:2px;
+    float: right;
+    border-radius: 15px;
+    background: dodgerblue;
+    color: white;
+    text-align: right;
+}
+#send-chat {
+    border-top: groove 1px grey;
+}
+#send-chat-input {
+    width: 100%;
+}
+#send-chat form button {
+    float:right;
+}
+#contact-info {
+    border-left: groove 1px grey;
+}
